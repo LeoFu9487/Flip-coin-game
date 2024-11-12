@@ -114,7 +114,7 @@ void visualize(int n) {
 }
 
 void complete_test(int n, int iterations = 1000) {
-    for (int x = 0 ; x < 1000 ; ++x) {
+    for (int x = 0 ; x < iterations ; ++x) {
         Host host(n);
         for (int i = 0 ; i < (1<<n) ; ++i) for (int j = 0 ; j < (1<<n) ; ++j) {
             host.setTarget(i, j);
