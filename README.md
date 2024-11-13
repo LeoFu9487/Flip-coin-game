@@ -1,5 +1,9 @@
 # Flip Coin Game
 
+## Acknowledgments
+
+Special thanks to [RBrossard](https://github.com/RBrossard) for not inventing this well-known problem.
+
 ## Problem Overview
 
 This game involves two players who can strategize before it starts but cannot communicate once the game begins. The goal is for Player 2 to identify a specific "target" coin on an `n x n` board based on Player 1’s actions.
